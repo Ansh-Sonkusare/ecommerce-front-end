@@ -1,18 +1,26 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from "react";
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
-       <h1 className="text-7xl font-bold text-red-400">
-      Hello world!
-    </h1>
+      <div>
+        {/* navigation bar */}
+        <div className="nav">
+          <img src="/camera.png" height={40} width={30}></img>
+
+          <button className="border-none outline-none">Home</button>
+          <button className="border-none outline-none">Products</button>
+          <button className="border-none outline-none">Services</button>
+          <button className="border-none outline-none">Contact</button>
+
+          <img src="/grocery-store.png" height={40} width={35}></img>
+        </div>
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
