@@ -12,25 +12,25 @@ const Navbar: FunctionComponent<NavbarProps> = () => {
         <div className="logo text-5xl font-extrabold"> Logo </div>
         <div className="Links flex flex-row gap-9 text-lg ">
           <Link
-            className="rounded-3xl px-4 py-2  hover:underline transition duration-300 hover:bg-black hover:text-white"
+            className="rounded-lg px-4 py-2  underline transition duration-300 hover:bg-black hover:text-white"
             href="/"
           >
             Home
           </Link>
           <Link
-            className="rounded-3xl px-4 py-2  hover:underline transition duration-300 hover:bg-black hover:text-white"
+            className="rounded-lg px-4 py-2  transition duration-300 hover:bg-black hover:text-white"
             href="/"
           >
             Products
           </Link>
           <Link
-            className="rounded-3xl px-4 py-2  hover:underline transition duration-300 hover:bg-black hover:text-white"
+            className="rounded-lg px-4 py-2  transition duration-300 hover:bg-black hover:text-white"
             href="/"
           >
             Services
           </Link>
           <Link
-            className="rounded-3xl px-4 py-2  hover:underline transition duration-300 hover:bg-black hover:text-white"
+            className="rounded-lg px-4 py-2  transition duration-300 hover:bg-black hover:text-white"
             href="/"
           >
             Contact us
