@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Kdam Thmor';
+  src: url('/path/to/kdam_thmor.woff') format('woff'),
+       url('/path/to/kdam_thmor.ttf') format('truetype');
+}
+
+.font-kdam-thmor {
+  font-family: 'Kdam Thmor', sans-serif;
+  color: #543131; 
+}
+ 
