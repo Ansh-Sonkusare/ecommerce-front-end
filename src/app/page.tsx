@@ -3,6 +3,7 @@ import Navbar from "./components/ui/navbar";
 import Feature from "./components/ui/feature";
 import Deliver from "./components/ui/support";
 import Title from "./components/ui/title";
+import Promo from "./components/ui/promo";
 
 export default function HomePage() {
   return (
@@ -12,6 +13,8 @@ export default function HomePage() {
       <Title />
 
       <Feature />
+
+      <Promo />
 
       <Deliver />
     </>
