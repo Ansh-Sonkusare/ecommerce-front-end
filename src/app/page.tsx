@@ -4,6 +4,7 @@ import Feature from "./components/ui/feature";
 import Deliver from "./components/ui/support";
 import Title from "./components/ui/title";
 import Promo from "./components/ui/promo";
+import Seo from "./components/ui/seo";
 
 export default function HomePage() {
   return (
@@ -17,6 +18,8 @@ export default function HomePage() {
       <Promo />
 
       <Deliver />
+
+      <Seo />
     </>
   );
 }
