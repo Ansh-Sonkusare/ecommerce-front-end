@@ -1,4 +1,3 @@
-
 import Navbar from "./components/ui/navbar";
 import Feature from "./components/ui/feature";
 import Deliver from "./components/ui/support";
