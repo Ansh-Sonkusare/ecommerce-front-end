@@ -27,9 +27,9 @@ function Promo() {
         <p className="text-10xl text-[30px] font-light text-[#5E5959]">
           Unlock the world of photography with an exclusive offer! Enjoy a
           delightful <span className="text-red-500 underline">20% off</span> on
-          your purchases. Simply use code '
-          <span className="text-red-500">CAMERA</span>' at checkout and capture
-          the moments, seize the savings!
+          your purchases. Simply use code &apos;
+          <span className="text-red-500">CAMERA</span>&apos; at checkout and
+          capture the moments, seize the savings!
         </p>
       </div>
     </div>
