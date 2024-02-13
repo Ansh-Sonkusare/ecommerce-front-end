@@ -4,7 +4,7 @@ function Promo() {
   return (
     <div className="flex items-center justify-center">
       <div className="font-inter w-96 rounded-3xl bg-[#FFFCBE] p-8 text-center lg:w-1/2">
-        <div className="justify-center flex items-center text-center">
+        <div className="flex items-center justify-center text-center">
           <Image
             src={"/Party_Popper_Emojipedia.png"}
             alt={"partyhat"}

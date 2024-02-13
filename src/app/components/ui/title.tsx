@@ -2,17 +2,17 @@ import Image from "next/image";
 
 function Title() {
   return (
-    <div className="flex flex-col items-center">
-      <div className="grid grid-cols-2 gap-14">
+    <div className="mt-20 flex justify-center px-48">
+      <div className=" flex w-full justify-between ">
         <div className="mt-15 flex flex-col items-start justify-center">
-          <h1 className="font-inter mb-4 text-left text-6xl font-bold">
+          <h1 className="font-inter text-left text-[650%] font-normal">
             Camera
           </h1>
           <p className="font-kdam-thmor text-543131 mb-4 text-left text-2xl">
             we guarantee to bring the best quality <br />
             cameras for your needs.{" "}
           </p>
-          <button className="rounded-3xl border border-black bg-gray-900 px-4 py-2 text-2xl text-white hover:bg-white hover:text-black hover:underline">
+          <button className="mt-4 h-16 w-80 rounded-xl border border-black bg-black px-4 py-2 text-2xl text-white hover:bg-white hover:text-black hover:underline">
             Shop now
           </button>
         </div>
