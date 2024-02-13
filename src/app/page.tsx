@@ -4,6 +4,7 @@ import Feature from "./components/ui/feature";
 import Support from "./components/ui/supportPage";
 import Title from "./components/ui/title";
 import Promo from "./components/ui/promo";
+import Footer from "./components/ui/footer";
 
 export default function HomePage() {
   return (
@@ -17,6 +18,8 @@ export default function HomePage() {
       <Promo />
 
       <Support />
+
+      <Footer />
     </>
   );
 }
