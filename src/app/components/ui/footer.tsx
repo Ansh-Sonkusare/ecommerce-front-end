@@ -19,21 +19,21 @@ function Footer() {
             Subscribe
           </button>
           <Image
-            src={"/facebook-logo-498.jpg"}
+            src={"/Footer/facebook-logo-498.jpg"}
             alt={"facebook"}
             height={40}
             width={40}
             className="h-10"
           ></Image>
           <Image
-            src={"/logo-ig-png-32464.png"}
+            src={"/Footer/logo-ig-png-32464.png"}
             alt={"instagram"}
             height={40}
             width={40}
             className="h-10"
           ></Image>
           <Image
-            src={"/logo-twitter-png-5860.png"}
+            src={"/Footer/logo-twitter-png-5860.png"}
             alt={"twitter"}
             height={40}
             width={40}

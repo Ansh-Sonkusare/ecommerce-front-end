@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function Title() {
   return (
-    <div className="mt-20 flex justify-center px-48">
+    <div className="mt-24 flex justify-center px-48">
       <div className=" flex w-full justify-between ">
         <div className="mt-15 flex flex-col items-start justify-center">
           <h1 className="font-inter text-left text-[650%] font-normal">
@@ -20,13 +20,13 @@ function Title() {
         <div className="mt-10 grid grid-cols-2 gap-14">
           <div className="grid grid-cols-1 gap-10">
             <Image
-              src={"/cam1.png"}
+              src={"/Hero/cam1.png"}
               alt={"whitecamera"}
               height={280}
               width={360}
             ></Image>
             <Image
-              src={"/cam4.png"}
+              src={"/Hero/cam4.png"}
               alt={"lenscamera"}
               height={210}
               width={260}
@@ -36,14 +36,14 @@ function Title() {
           <div className="grid grid-cols-1 gap-10">
             <div className="mr-20">
               <Image
-                src={"/cam2.png"}
+                src={"/Hero/cam2.png"}
                 alt={"blackcamera"}
                 height={210}
                 width={260}
               ></Image>
             </div>
             <Image
-              src={"/cam3.png"}
+              src={"/Hero/cam3.png"}
               alt={"sidecamera"}
               height={280}
               width={360}

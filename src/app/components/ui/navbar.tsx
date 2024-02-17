@@ -9,7 +9,7 @@ const Navbar: FunctionComponent<NavbarProps> = () => {
   return (
     <>
       <div className="flex justify-center px-48">
-        <div className="font mt-6 flex w-full items-center justify-between ">
+        <div className="font mt-8 flex w-full items-center justify-between ">
           <div className="logo text-5xl font-extrabold"> Logo </div>
           <div className="Links flex flex-row gap-9 text-lg ">
             <Link
